@@ -1,0 +1,33 @@
+@import "./home.css";
+
+.sidebar {
+  min-width: 16rem;
+  padding: 1rem 2rem;
+  overflow: auto;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.filter__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.filter__subtitle {
+  margin: 1rem 0 0.5rem;
+}
+.filter__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+.filter__wrapper > * {
+  cursor: pointer;
+}
+.filter__range {
+  width: 100%;
+  cursor: pointer;
+}
