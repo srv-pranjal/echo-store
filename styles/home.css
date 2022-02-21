@@ -1,0 +1,99 @@
+@import url("https://sapphireui.netlify.app/styles/navigation.css");
+@import url("https://sapphireui.netlify.app/styles/card.css");
+
+:root {
+  --overlay-color: rgba(0, 0, 0, 0.7);
+}
+
+/* --- Header --- */
+.wrapper {
+  background: linear-gradient(
+    315deg,
+    var(--light-primary-color) 0%,
+    var(--primary-color) 74%
+  );
+  color: var(--dark-secondary-color);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.wrapper__title {
+  font-style: italic;
+  color: var(--complimentary-text-color);
+}
+.nav__list {
+  font-weight: 600;
+}
+.nav__list i {
+  font-size: 1.5rem;
+  color: var(--dark-secondary-color);
+}
+.wrapper .badge__number {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+.nav__search-bar {
+  margin-right: 1rem;
+  width: 25rem;
+}
+.nav__search-bar .input {
+  width: 100%;
+}
+/* --- Hero Section --- */
+.hero {
+  position: relative;
+  height: calc(100vh - 3.5rem);
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+.hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero__overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 90vh;
+  height: calc(100vh - 3.5rem);
+  background-color: var(--overlay-color);
+  color: var(--complimentary-text-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.hero__overlay p {
+  text-align: center;
+  max-width: 30ch;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.hero__overlay .btn {
+  font-size: 1.5rem;
+}
+.section {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.section__heading {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+/* --- Categories Section --- */
+.category .card {
+  transition: 0.4s;
+}
+.category .card:hover {
+  transform: scale(1.1);
+}
+.category__title {
+  text-align: center;
+}
