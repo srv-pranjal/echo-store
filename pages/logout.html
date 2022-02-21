@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../styles/authentication.css" />
+    <title>Logout | Echo Store</title>
+  </head>
+  <body>
+    <header class="wrapper">
+      <a href="../index.html"
+        ><em><h2 class="wrapper__title">Echo Store</h2></em></a
+      >
+      <nav class="nav">
+        <div class="nav__search-bar">
+          <input
+            type="text"
+            class="input input--outlined"
+            placeholder="Search for products"
+          />
+          <i class="fa fa-search"></i>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="btn btn--secondary" role="button" href="./login.html"
+              >Login</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a href="./cart.html">
+              <div class="badge">
+                <i class="fa fa-shopping-cart"></i>
+                <span class="badge__status badge__number">4</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./wishlist.html">
+              <div class="badge">
+                <i class="fa fa-heart"></i>
+                <span class="badge__status badge__number">5</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="authentication">
+      <div action="" class="authentication__form">
+        <h3 class="authentication__title">Logged Out Successfully</h3>
+        <p class="authentication__subtitle">
+          Thank You for visiting Echo Store!
+        </p>
+        <p class="authentication__subtitle">
+          <a href="../index.html" class="btn btn--link-text" role="button"
+            ><i class="fa fa-arrow-left"></i> Back to Home Page</a
+          >
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
