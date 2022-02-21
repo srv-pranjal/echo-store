@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <title>Home | Echo Store</title>
+  </head>
+  <body>
+    <header class="wrapper">
+      <em><h2 class="wrapper__title">Echo Store</h2></em>
+      <nav class="nav">
+        <div class="nav__search-bar">
+          <input
+            type="text"
+            class="input input--outlined"
+            placeholder="Search for products"
+          />
+          <i class="fa fa-search"></i>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="btn btn--secondary" role="button" href="pages/login.html"
+              >Login</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a href="./pages/cart.html">
+              <div class="badge">
+                <i class="fa fa-shopping-cart"></i>
+                <span class="badge__status badge__number">4</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./pages/wishlist.html">
+              <div class="badge">
+                <i class="fa fa-heart"></i>
+                <span class="badge__status badge__number">1</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="hero">
+          <img
+            class="hero__img"
+            src="./assets/hero.jpg"
+            alt="Responsive Image"
+          />
+          <div class="hero__overlay">
+            <p>
+              Get the best deals on electronics at Echo Store. Upto 45% off on
+              1st Order
+            </p>
+            <a class="btn btn--primary" role="button" href="pages/products.html"
+              >Shop Now</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <h1 class="section__heading">Categories</h1>
+      <section class="section category">
+        <a href="">
+          <article class="card card--vertical card--shadow">
+            <div class="card__content">
+              <div class="card__img-container">
+                <img src="./assets/mobile.jpg" class="img-responsive" />
+              </div>
+              <div class="card__product-details">
+                <div class="card__title category__title">
+                  <h2>Mobiles</h2>
+                </div>
+              </div>
+            </div>
+          </article>
+        </a>
+        <a href="">
+          <article class="card card--vertical card--shadow">
+            <div class="card__content">
+              <div class="card__img-container">
+                <img src="./assets/laptop.jpg" class="img-responsive" />
+              </div>
+              <div class="card__product-details">
+                <div class="card__title category__title">
+                  <h2>Laptops</h2>
+                </div>
+              </div>
+            </div>
+          </article>
+        </a>
+        <a href="">
+          <article class="card card--vertical card--shadow">
+            <div class="card__content">
+              <div class="card__img-container">
+                <img src="./assets/headphone.jpg" class="img-responsive" />
+              </div>
+              <div class="card__product-details">
+                <div class="card__title category__title">
+                  <h2>Headphones</h2>
+                </div>
+              </div>
+            </div>
+          </article>
+        </a>
+        <a href="">
+          <article class="card card--vertical card--shadow">
+            <div class="card__content">
+              <div class="card__img-container">
+                <img src="./assets/speakers.jpg" class="img-responsive" />
+              </div>
+              <div class="card__product-details">
+                <div class="card__title category__title">
+                  <h2>Speakers</h2>
+                </div>
+              </div>
+            </div>
+          </article>
+        </a>
+        <a href="">
+          <article class="card card--vertical card--shadow">
+            <div class="card__content">
+              <div class="card__img-container">
+                <img src="./assets/smartwatch.jpg" class="img-responsive" />
+              </div>
+              <div class="card__product-details">
+                <div class="card__title category__title">
+                  <h2>Smartwatches</h2>
+                </div>
+              </div>
+            </div>
+          </article>
+        </a>
+        <a href="">
+          <article class="card card--vertical card--shadow">
+            <div class="card__content">
+              <div class="card__img-container">
+                <img src="./assets/storage.jpg" class="img-responsive" />
+              </div>
+              <div class="card__product-details">
+                <div class="card__title category__title">
+                  <h2>Storage Devices</h2>
+                </div>
+              </div>
+            </div>
+          </article>
+        </a>
+      </section>
+      <h1 class="section__heading">New Arrivals</h1>
+      <section class="section">
+        <article class="card card--vertical card--shadow">
+          <div class="card__content">
+            <div class="card__img-container">
+              <img src="./assets/headphone.jpg" class="img-responsive" />
+            </div>
+            <div class="card__product-details">
+              <div class="card__title">
+                <h2>Black Headphones</h2>
+                <small>by Sapphire Tech. </small>
+              </div>
+              <div class="card__description">
+                On-ear lightweight Headphones with high bass and noise
+                cancellation.
+                <div class="card__price-wrapper">
+                  <span class="card__price-original">₹799</span>
+                  <span class="card__price-discounted">₹599</span>
+                  <span class="card__discount highlight">25% OFF</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card__footer">
+            <button class="btn btn--outline-secondary">
+              <i class="fa fa-heart-o"></i>
+            </button>
+            <button class="btn btn--outline-secondary">
+              <i class="fa fa-shopping-cart"></i>
+            </button>
+            <button class="btn btn--primary">Buy Now</button>
+          </div>
+          <span class="card__badge">New Arrival</span>
+        </article>
+        <article class="card card--vertical card--shadow">
+          <div class="card__content">
+            <div class="card__img-container">
+              <img src="./assets/headphone.jpg" class="img-responsive" />
+            </div>
+            <div class="card__product-details">
+              <div class="card__title">
+                <h2>Black Headphones</h2>
+                <small>by Sapphire Tech. </small>
+              </div>
+              <div class="card__description">
+                White solid T-shirt, has a round neck and short sleeves.
+                <div class="card__price-wrapper">
+                  <span class="card__price-original">₹799</span>
+                  <span class="card__price-discounted">₹599</span>
+                  <span class="card__discount highlight">25% OFF</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card__footer">
+            <button class="btn btn--outline-secondary">
+              <i class="fa fa-heart-o"></i>
+            </button>
+            <button class="btn btn--outline-secondary">
+              <i class="fa fa-shopping-cart"></i>
+            </button>
+            <button class="btn btn--primary">Buy Now</button>
+          </div>
+          <span class="card__badge">New Arrival</span>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
