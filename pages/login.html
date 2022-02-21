@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../styles/authentication.css" />
+    <title>Login | Echo Store</title>
+  </head>
+  <body>
+    <header class="wrapper">
+      <a href="../index.html"
+        ><em><h2 class="wrapper__title">Echo Store</h2></em></a
+      >
+      <nav class="nav">
+        <div class="nav__search-bar">
+          <input
+            type="text"
+            class="input input--outlined"
+            placeholder="Search for products"
+          />
+          <i class="fa fa-search"></i>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="btn btn--secondary" role="button" href="./signup.html"
+              >Sign Up</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a href="./cart.html">
+              <div class="badge">
+                <i class="fa fa-shopping-cart"></i>
+                <span class="badge__status badge__number">4</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./wishlist.html">
+              <div class="badge">
+                <i class="fa fa-heart"></i>
+                <span class="badge__status badge__number">5</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="authentication">
+      <form action="" class="authentication__form">
+        <h3 class="authentication__title">LOG IN</h3>
+        <p class="authentication__subtitle">Enter email and password</p>
+        <div class="authentication__field">
+          <label>Email</label>
+          <input
+            class="input input--outlined"
+            placeholder="Email"
+            type="email"
+          />
+        </div>
+        <div class="authentication__field">
+          <label>Password</label>
+          <input
+            class="input input--outlined"
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+        <div class="authentication__help">
+          <input type="checkbox" />
+          <label>Remember me</label>
+          <a href="#" class="highlight" role="button">Forgot Password?</a>
+        </div>
+        <button class="btn btn--primary authentication__btn">LOG IN</button>
+        <p class="authentication__subtitle">
+          Don't have an account?
+          <a href="./signup.html" class="highlight" role="button">Sign up!</a>
+        </p>
+      </form>
+    </main>
+  </body>
+</html>
