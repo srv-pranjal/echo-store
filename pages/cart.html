@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/cart.css" />
+    <title>Cart | Echo Store</title>
+  </head>
+  <body>
+    <header class="wrapper">
+      <a href="../index.html"
+        ><em><h2 class="wrapper__title">Echo Store</h2></em></a
+      >
+      <nav class="nav">
+        <div class="nav__search-bar">
+          <input
+            type="text"
+            class="input input--outlined"
+            placeholder="Search for products"
+          />
+          <i class="fa fa-search"></i>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="btn btn--secondary" role="button" href="./login.html"
+              >Login</a
+            >
+          </li>
+          <li class="nav__list-item">
+            <a href="./cart.html">
+              <div class="badge">
+                <i class="fa fa-shopping-cart"></i>
+                <span class="badge__status badge__number">4</span>
+              </div>
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="./wishlist.html">
+              <div class="badge">
+                <i class="fa fa-heart"></i>
+                <span class="badge__status badge__number">5</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="section__heading">My Cart</h1>
+      <section class="section">
+        <div class="cart">
+          <article class="card card--horizontal">
+            <div class="card__content">
+              <div class="card__img-container">
+                <img src="../assets/headphone.jpg" class="img-responsive" />
+              </div>
+              <div class="card__product-details">
+                <div class="card__title">
+                  <h2>Black Headphones</h2>
+                  <small>by Sapphire Tech </small>
+                </div>
+                <div class="card__description">
+                  On-ear lightweight Headphones with high bass and noise
+                  cancellation.
+                  <div class="card__price-wrapper">
+                    <span class="card__price-original">₹799</span>
+                    <span class="card__price-discounted">₹599</span>
+                    <span class="card__discount highlight">25% OFF</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card__footer">
+              <div class="cart__quantity">
+                <button class="btn btn--outline-secondary">
+                  <i class="fa fa-minus"></i>
+                </button>
+                <span class="highlight">3</span>
+                <button class="btn btn--outline-secondary">
+                  <i class="fa fa-plus"></i>
+                </button>
+              </div>
+              <button class="btn btn--outline-secondary">
+                Move to Wishlist
+              </button>
+            </div>
+            <a class="card__btn-close"><i class="fa fa-times-circle"></i></a>
+          </article>
+          <article class="card card--horizontal">
+            <div class="card__content">
+              <div class="card__img-container">
+                <img src="../assets/speakers.jpg" class="img-responsive" />
+              </div>
+              <div class="card__product-details">
+                <div class="card__title">
+                  <h2>Sony Speakers</h2>
+                  <small>by Sapphire Tech </small>
+                </div>
+                <div class="card__description">
+                  4.1 channel multimedia speakers, TYPE: Bass Reflex
+                  <div class="card__price-wrapper">
+                    <span class="card__price-original">₹8999</span>
+                    <span class="card__price-discounted">₹7199</span>
+                    <span class="card__discount highlight">20% OFF</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card__footer">
+              <div>
+                <div class="cart__quantity">
+                  <button class="btn btn--outline-secondary">
+                    <i class="fa fa-minus"></i>
+                  </button>
+                  <span class="highlight">1</span>
+                  <button class="btn btn--outline-secondary">
+                    <i class="fa fa-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <button class="btn btn--outline-secondary">
+                Move to Wishlist
+              </button>
+            </div>
+            <a class="card__btn-close"><i class="fa fa-times-circle"></i></a>
+          </article>
+        </div>
+        <article class="card card--vertical order">
+          <div class="card__content">
+            <div class="card__product-details">
+              <div class="card__title">
+                <h2>ORDER DETAILS</h2>
+              </div>
+              <div class="card__description">
+                <hr />
+                <div class="order__item">
+                  <span>Bag Total(4 Items)</span> <span>₹8996</span>
+                </div>
+                <div class="order__item">
+                  <span>Discount</span> <span>- ₹299</span>
+                </div>
+                <div class="order__item">
+                  <span>Delivery</span> <span>Free</span>
+                </div>
+                <hr />
+                <div class="order__item">
+                  <span><strong>Total Amount</strong></span>
+                  <span><strong>₹8697</strong></span>
+                </div>
+                <hr />
+              </div>
+            </div>
+          </div>
+          <div class="card__footer">
+            <button class="btn btn--primary">Place Order</button>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
